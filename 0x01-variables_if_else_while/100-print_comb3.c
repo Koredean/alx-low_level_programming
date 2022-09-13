@@ -1,38 +1,33 @@
 #include <stdio.h>
-/**
- * main - Prints possible combination of two different sigits
+/*
+ * main - Prints possible combination of two digit numbers
  *
  * Return: Always (Success)
  */
 int main(void)
 {
+	int c = 0;
+	int f_d;
+	int l_d;
 
-	int i, j;
-
-	for (i = '0'; i <= '9'; i++)
+	while (c <= 99)
 	{
+		f_d = (c / 10 + '0');
+		l_d = (c % 10 + '0');
 
-		for (j = '1'; j <= '9'; j++)
+		if (f_d < l_d)
 		{
+			putchar(f_d);
+			putchar(l_d);
 
-			if (j > i)
+			if (c != 89)
 			{
-
-				putchar(j_0);
-				putchar(i_0);
-				if (i != 8)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
+		c++;
 	}
 	putchar('\n');
-
 	return (0);
 }
-
-
-
-
