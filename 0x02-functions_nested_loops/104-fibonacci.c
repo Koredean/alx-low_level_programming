@@ -7,7 +7,7 @@
 int main(void)
 {
 int inc;
-unsigned  n1 = 0, n2 = 1, n3;
+unsigned int  n1 = 0, n2 = 1, n3;
 for (inc = 0; inc < 98; inc++)
 {
 n3 = n1 + n2;
