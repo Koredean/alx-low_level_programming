@@ -8,7 +8,7 @@ int main(void)
 {
 int inc;
 unsigned int  n1 = 0, n2 = 1, n3;
-for (inc = 0; inc < 98; inc++)
+for (inc = 0; inc <= 98; inc++)
 {
 n3 = n1 + n2;
 printf("%u", n3);
