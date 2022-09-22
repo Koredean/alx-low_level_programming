@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncat - Concatenate two springs but add inputted number of bytes
  * @dest: string to be appended upon
