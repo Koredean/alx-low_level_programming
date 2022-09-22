@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _strcat - Concatenatea string src to the end of string dest
@@ -11,13 +11,9 @@
 char *_strcat(char *dest, char *src);
 {
 
-	int index = 0, dest_len = 0;
-
-	while (dest[index++])
-		dest_len++;
-
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
+	/*concatenates char *dest and char *src*/
+	strcat(dest, src);
+	printf("strcat(dest, src): %s\n", dest);
 
 	return (dest);
 }
