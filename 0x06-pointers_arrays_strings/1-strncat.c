@@ -1,7 +1,7 @@
 #include "main.h"
+
 /**
- * _strncat - Concatenate string src to the end of string dest with
- * inputed number of bytes
+ * _strncat - Concatenate two springs with inputted number of bytes
  * @dest: first string
  * @src: second string
  * @n: integer parameter to compareindex to
