@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncat - Concatenate two springs with inputted number of bytes
- * @dest: first string
- * @src: second string
- * @n: integer parameter to compareindex to
+ * _strncat - Concatenate two springs but add inputted number of bytes
+ * @dest: string to be appended upon
+ * @src: string to be completed at the end of dest
+ * @n: integer parameter to compare index to
  * Return: returns new concatenated string
  */
 
