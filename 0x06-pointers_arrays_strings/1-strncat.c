@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncat - Concatenate string src to the end of string dest with
  * inputed number of bytes
