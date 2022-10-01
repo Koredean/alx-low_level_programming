@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all arguments it receives
+ * main - prints all arguments it receives
  * @argc: number of arguments passed to function
  * @argv: argument vector of pointers to strings
  *
@@ -17,5 +17,4 @@ int main(int argc, char *argv[])
 		printf("s\n", argv[i]);
 	}
 	return (0);
-
 }
