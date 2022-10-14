@@ -10,6 +10,7 @@
 typedef struct print
 {
 	char *t;
+	va_list valist;
 } print_t;
 
 int _putchar(char);
