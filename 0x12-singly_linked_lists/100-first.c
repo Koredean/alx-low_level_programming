@@ -1,14 +1,13 @@
-#include <stdio.h>
+#include <stdio.h>
 
-void first(void) __attrbute__((constuctor));
+void __attribute__((constructor)) hare(void);
 
 /**
- * first - prints a string before the main function is executed
- *
- * Return: void';lpkrwbnrrehnlkfbr
+ * hare - prinys a string before the
+ * main function is executed
  */
-void first(void)
+void hare(void)
 {
-	printf("You're beat! and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow,");
+	printf("\nI bore my house upon my back!\n");
 }

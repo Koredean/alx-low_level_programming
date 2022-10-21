@@ -4,21 +4,21 @@ section .text
    global main
 
 main:
-   push rb
+   push rbp
 
-   mov rdl,fmt
-   mov rsl,msg
+   mov rdi,fmt
+   mov rsi,msg
    mov rax,0
    call printf
 
-   pop rb
+   pop rbp
 
    mov rax,0
    ret
 
 section .data
-msg: db "Hello, Holberton", 0
-fmt: db "%s", 10, 0
+   msg: db "Hello, Holberton", 0
+   fmt: db "%s", 10, 0
 
 
 
