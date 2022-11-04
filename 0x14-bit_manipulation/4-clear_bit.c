@@ -6,7 +6,7 @@
  * @n: parameter
  * @index: index
  *
- * Return: 1if it works, -1 if error
+ * Return: 1 if it works, -1 if error
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
